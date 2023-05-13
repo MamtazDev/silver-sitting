@@ -1,9 +1,11 @@
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
+// import { BsFillArrowDownSquareFill } from "react-icons/bs";
+
 
 const Header = () => {
   return (
-    <div>
+    <div className="mb-5">
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container">
           <a class="navbar-brand me-5" href="#">
@@ -88,18 +90,22 @@ const Header = () => {
               </li>
               <li class="nav-item ">
                 <select class="form-select" aria-label="Default select example">
-                  <option selected>
-                    <img
-                      src="https://static.parastorage.com/services/linguist-flags/1.663.0/assets/flags/corner/GBR.png"
-                      alt=""
-                    />{" "}
-                    EN
-                  </option>
-                  <option value="1">
-                    <img
+                  <option  selected>
+                 
+                    {/* <img
                       src="https://static.parastorage.com/services/linguist-flags/1.663.0/assets/flags/corner/DEU.png"
                       alt=""
-                    />{" "}
+                    /> */}
+                    {/* <BsFillArrowDownSquareFill/> */}
+                    EN
+                    
+                  </option>
+                  <option value="1">
+                    {/* <img
+                      src="https://static.parastorage.com/services/linguist-flags/1.663.0/assets/flags/corner/DEU.png"
+                      alt=""
+                    /> */}
+                    
                     DE
                   </option>
                 </select>
@@ -107,6 +113,7 @@ const Header = () => {
               <li class="nav-item ">
                 <button id="login_btn" type="">Login</button>
               </li>
+              
             </ul>
           </div>
         </div>

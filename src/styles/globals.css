@@ -30,3 +30,22 @@ li.nav-item:hover ul#nav_hover_item {
   border-radius: 10px;
   padding: 10px 25px;
 }
+
+.start_up {
+  background-color: #E1E6F2;
+  padding: 25px;
+}
+
+.start_up p {
+  font-size: 24px;
+}
+
+.uber h2 {
+  color: #635965;
+  font-size: 25px;
+}
+
+.uber p {
+
+  font-size: 24px;
+}
