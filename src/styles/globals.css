@@ -1,3 +1,6 @@
+.sec_gap{
+  margin-bottom: 80px;
+}
 .navbar-nav {
   position: relative;
   justify-content: space-between;
@@ -40,15 +43,21 @@ li.nav-item:hover ul#nav_hover_item {
   font-size: 24px;
 }
 
-.uber h2 {
+.about h2 {
   color: #635965;
   font-size: 25px;
 }
 
-.uber p {
-
+.about p {
   font-size: 24px;
 }
+
+.about img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+
+}
+
 
 .funktioniert {
   background-color: #E1E6F2;

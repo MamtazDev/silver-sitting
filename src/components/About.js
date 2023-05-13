@@ -4,7 +4,7 @@ import { MdPeopleAlt } from "react-icons/md";
 
 const About = () => {
   return (
-    <div className="uber mb-5">
+    <div className="about sec_gap">
       <div className="container">
         <div className="row g-5">
           <div className="text-center col-12 col-md-6 col-lg-4 p-3">
@@ -12,7 +12,7 @@ const About = () => {
               className="mb-3"
               style={{ width: "50px", height: "50px" }}
             />
-            <h2>about us</h2>
+            <h2>About us</h2>
             <p>
               Find out where the idea for SilverSitting came from and what
               drives us.
@@ -29,7 +29,7 @@ const About = () => {
               src="https://static.wixstatic.com/media/ac65b3_a219199ad34e4fc5907a7a27681a1830~mv2.png/v1/fill/w_55,h_45,al_c,lg_1,q_85,enc_auto/ac65b3_a219199ad34e4fc5907a7a27681a1830~mv2.png"
               alt=""
             />
-            <h2>news</h2>
+            <h2>News</h2>
             <p>Check out our childcare news and articles</p>
             <Link href="https://www.silversitting.com/blog ">To the news</Link>
           </div>
@@ -41,7 +41,7 @@ const About = () => {
               src="https://static.wixstatic.com/media/ac65b3_97b377a83dce436691ca425b79bfb43a~mv2.png/v1/fill/w_55,h_51,al_c,lg_1,q_85,enc_auto/ac65b3_97b377a83dce436691ca425b79bfb43a~mv2.png"
               alt=""
             />
-            <h2>security</h2>
+            <h2>Security</h2>
             <p>Your safety is important to us!</p>
             <Link href="https://www.silversitting.com/haeufige-fragen-kinderbetreuer">
               Safely take care of children

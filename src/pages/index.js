@@ -4,6 +4,7 @@ import Header from '@/components/Header'
 import StartUp from '@/components/StartUp'
 import About from '@/components/About'
 import HowWorks from '@/components/HowWorks'
+import Register from '@/components/Register'
 
 
 
@@ -23,6 +24,7 @@ export default function Home() {
        <StartUp/>
        <About/>
        <HowWorks/>
+       <Register/>
       </main>
     </>
   )

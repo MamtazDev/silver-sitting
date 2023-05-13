@@ -2,9 +2,9 @@ import React from "react";
 
 const HowWorks = () => {
   return (
-    <div className="funktioniert">
+    <div className="funktioniert sec_gap">
       <div className="container">
-        <h1 className="text-center mb-4">How it works</h1>
+        <h1 className="text-center mb-5">How it works</h1>
         <div className="row g-5">
           <div className="col-12 col-md-6 col-lg-4 text-center p-3">
             <h2>1</h2>

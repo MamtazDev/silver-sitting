@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <div className="mb-5">
+    <div className="sec_gap">
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container">
           <a class="navbar-brand me-5" href="#">
