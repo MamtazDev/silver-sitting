@@ -1,8 +1,10 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import Header from '@/components/Header'
-import Uber from '@/components/Uber'
 import StartUp from '@/components/StartUp'
+import About from '@/components/About'
+import HowWorks from '@/components/HowWorks'
+
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -19,7 +21,8 @@ export default function Home() {
       <main>
        <Header/>
        <StartUp/>
-       <Uber/>
+       <About/>
+       <HowWorks/>
       </main>
     </>
   )

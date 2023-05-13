@@ -49,3 +49,23 @@ li.nav-item:hover ul#nav_hover_item {
 
   font-size: 24px;
 }
+
+.funktioniert {
+  background-color: #E1E6F2;
+  padding: 50px;
+}
+
+.funktioniert h2 {
+  background-color: #8734B2;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+  color: white;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.funktioniert p {
+  font-size: 24px;
+}
