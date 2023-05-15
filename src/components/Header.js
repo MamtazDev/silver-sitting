@@ -31,6 +31,18 @@ const Header = () => {
     ),
   }));
 
+  const initialPlaceholder =
+    countryOptions.length > 0 ? countryOptions[0].label : "";
+  const customStyles = {
+    control: (provided) => ({
+      ...provided,
+      border: "none",
+      boxShadow: "none",
+      borderRadius: 0,
+      width: "150px",
+    }),
+  };
+
   return (
     <div className="">
       <nav class="navbar navbar-expand-lg ">
@@ -121,6 +133,9 @@ const Header = () => {
                 value={selectedCountry}
                 onChange={handleCountryChange}
                 options={countryOptions}
+                placeholder={initialPlaceholder}
+                styles={customStyles}
+                isSearchable={false}
               />
 
               <button id="login_btn" type="">
