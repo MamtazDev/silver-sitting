@@ -67,61 +67,61 @@ const Header = () => {
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-4">
               <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#">
+                <a class="nav-link fw-bold" aria-current="page" href="#">
                   Unternehmen
                 </a>
                 <ul id="nav_hover_item" className="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#">
+                    <a class="nav-link fw-bold" aria-current="page" href="#">
                       Wer wir sind
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#">
+                    <a class="nav-link fw-bold" aria-current="page" href="#">
                       Blog
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#">
+                    <a class="nav-link fw-bold" aria-current="page" href="#">
                       Feedback
                     </a>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#">
+                <a class="nav-link fw-bold" aria-current="page" href="#">
                   Für Kinderbetreuer
                 </a>
                 <ul id="nav_hover_item" className="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#">
+                    <a class="nav-link fw-bold " aria-current="page" href="#">
                       Anleitung
                     </a>
                   </li>{" "}
                   <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#">
+                    <a class="nav-link fw-bold" aria-current="page" href="#">
                       Häufige Fragen
                     </a>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#">
+                <a class="nav-link fw-bold" aria-current="page" href="#">
                   Für Eltern
                 </a>
                 <ul id="nav_hover_item" className="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#">
+                    <a class="nav-link fw-bold" aria-current="page" href="#">
                       Anleitung
                     </a>
                   </li>{" "}
                   <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#">
+                    <a class="nav-link fw-bold" aria-current="page" href="#">
                       Häufige Fragen
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#">
+                    <a class="nav-link fw-bold" aria-current="page" href="#">
                       Suche nach Kinderbetreuung
                     </a>
                   </li>
