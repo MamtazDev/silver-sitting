@@ -32,9 +32,11 @@ li.nav-item:hover ul#nav_hover_item {
   visibility: visible;
   opacity: 1;
 }
-.css-13cymwt-control{
-width: 150px !important;
+
+.css-13cymwt-control {
+  width: 150px !important;
 }
+
 #login_btn {
   background-color: #80798D;
   color: #F8DEFC;
@@ -108,4 +110,12 @@ width: 150px !important;
 
 .funktioniert p {
   font-size: 24px;
+}
+
+.footer {
+  background-color: #B4B8C2;
+}
+.footer a{
+  text-decoration: none;
+  color: #323232;
 }
