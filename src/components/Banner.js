@@ -26,13 +26,13 @@ const Banner = () => {
               />
               <p className="mb-4">Seniors care for children</p>
               <div className="d-flex justify-content-evenly">
-                <div onClick={() => setTab("children")}>
+                <div className={`${tab=== "children" && "active"} `} onClick={() => setTab("children")}>
                   <img width={80} src={children.src} alt="" />
                   <p>
                     Care <br /> Children
                   </p>
                 </div>
-                <div onClick={handleButtonClick}>
+                <div className={`${tab=== "caregiver" && "active"} `} onClick={handleButtonClick}>
                   <img width={80} src={caregiver.src} alt="" />
                   <p>
                     Find <br /> Caregiver
@@ -58,7 +58,7 @@ const Banner = () => {
                 <div>
                   <h6 className="mb-4">Find childcare for your children</h6>
                   <input
-                    className="mb-4 w-75 border-0 shadow-sm p-3"
+                    className="mb-4 w-75  shadow-sm p-3"
                     type="text"
                     placeholder="Address"
                   />{" "}

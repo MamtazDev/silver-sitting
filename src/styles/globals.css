@@ -57,7 +57,7 @@ li.nav-item:hover ul#nav_hover_item {
 .banner .care_form {
   background-color: white;
   padding: 25px 50px;
-  border-radius: 10px;
+  border-radius: 6px;
   text-align: center;
   border: 1px solid black;
 }
@@ -65,6 +65,30 @@ li.nav-item:hover ul#nav_hover_item {
 .banner .care_form h6 {
   font-size: 25px;
   color: #816665;
+}
+
+.banner .care_form .active {
+  position: relative;
+
+}
+
+.banner .care_form .active::after {
+  position: absolute;
+  content: '';
+  height: 3px;
+  width: 90%;
+  background-color: #56515E;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 12px;
+}
+
+.banner .care_form input {
+  border: 2px solid #525252;
+}
+
+.banner a {
+  color: black;
 }
 
 .start_up {
@@ -115,7 +139,8 @@ li.nav-item:hover ul#nav_hover_item {
 .footer {
   background-color: #B4B8C2;
 }
-.footer a{
+
+.footer a {
   text-decoration: none;
   color: #323232;
 }
