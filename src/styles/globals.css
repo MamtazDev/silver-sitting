@@ -1,9 +1,16 @@
-.sec_gap{
+.sec_gap {
   margin-bottom: 80px;
 }
+
+.navbar {
+  background-color: #E8ECF5;
+  border-bottom: 1px solid black;
+
+}
+
 .navbar-nav {
   position: relative;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
 }
 
@@ -30,8 +37,29 @@ li.nav-item:hover ul#nav_hover_item {
   background-color: #80798D;
   color: #F8DEFC;
   border: none;
-  border-radius: 10px;
+  border-radius: 6px;
   padding: 10px 25px;
+}
+
+.banner {
+  background-image: url('https://static.wixstatic.com/media/39f107_f8dc82da7a4c44bb98e95057c4e59d7e~mv2_d_1920_1280_s_2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 70px;
+  height: 700px;
+
+}
+
+.banner .care_form {
+  background-color: white;
+  padding: 25px 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.banner .care_form h6 {
+  font-size: 25px;
+  color: #816665;
 }
 
 .start_up {

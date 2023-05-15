@@ -2,11 +2,10 @@ import React from "react";
 import Image from "next/image";
 // import { BsFillArrowDownSquareFill } from "react-icons/bs";
 
-
 const Header = () => {
   return (
-    <div className="sec_gap">
-      <nav class="navbar navbar-expand-lg bg-light">
+    <div className="">
+      <nav class="navbar navbar-expand-lg ">
         <div class="container">
           <a class="navbar-brand me-5" href="#">
             <img
@@ -26,7 +25,7 @@ const Header = () => {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-4">
               <li class="nav-item">
                 <a class="nav-link " aria-current="page" href="#">
                   Unternehmen
@@ -88,33 +87,34 @@ const Header = () => {
                   </li>
                 </ul>
               </li>
-              <li class="nav-item ">
-                <select class="form-select" aria-label="Default select example">
-                  <option  selected>
-                 
-                    {/* <img
-                      src="https://static.parastorage.com/services/linguist-flags/1.663.0/assets/flags/corner/DEU.png"
-                      alt=""
-                    /> */}
-                    {/* <BsFillArrowDownSquareFill/> */}
-                    EN
-                    
-                  </option>
-                  <option value="1">
-                    {/* <img
-                      src="https://static.parastorage.com/services/linguist-flags/1.663.0/assets/flags/corner/DEU.png"
-                      alt=""
-                    /> */}
-                    
-                    DE
-                  </option>
-                </select>
-              </li>
-              <li class="nav-item ">
-                <button id="login_btn" type="">Login</button>
-              </li>
-              
             </ul>
+            <form class="d-flex align-items-center gap-3" role="search">
+              <select
+                style={{ width: "100px" }}
+                class="form-select"
+                aria-label="Default select example"
+              >
+                <option selected>
+                  <img
+                    src="https://static.parastorage.com/services/linguist-flags/1.663.0/assets/flags/corner/DEU.png"
+                    alt=""
+                  />
+                  EN
+                </option>
+                <option value="1">
+                  {" "}
+                  <img
+                    src="https://static.parastorage.com/services/linguist-flags/1.663.0/assets/flags/corner/DEU.png"
+                    alt=""
+                  />
+                  DE
+                </option>
+              </select>
+
+              <button id="login_btn" type="">
+                Login
+              </button>
+            </form>
           </div>
         </div>
       </nav>

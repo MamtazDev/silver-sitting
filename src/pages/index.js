@@ -1,14 +1,13 @@
-import Head from 'next/head'
-import { Inter } from 'next/font/google'
-import Header from '@/components/Header'
-import StartUp from '@/components/StartUp'
-import About from '@/components/About'
-import HowWorks from '@/components/HowWorks'
-import Register from '@/components/Register'
+import Head from "next/head";
+import { Inter } from "next/font/google";
+import Header from "@/components/Header";
+import StartUp from "@/components/StartUp";
+import About from "@/components/About";
+import HowWorks from "@/components/HowWorks";
+import Register from "@/components/Register";
+import Banner from "@/components/Banner";
 
-
-
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -20,12 +19,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-       <Header/>
-       <StartUp/>
-       <About/>
-       <HowWorks/>
-       <Register/>
+        <Header />
+        <Banner />
+        <StartUp />
+        <About />
+        <HowWorks />
+        <Register />
       </main>
     </>
-  )
+  );
 }
