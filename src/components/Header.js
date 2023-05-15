@@ -33,15 +33,24 @@ const Header = () => {
 
   const initialPlaceholder =
     countryOptions.length > 0 ? countryOptions[0].label : "";
-  const customStyles = {
-    control: (provided) => ({
-      ...provided,
-      border: "none",
-      boxShadow: "none",
-      borderRadius: 0,
-      width: "150px",
-    }),
-  };
+    const customStyles = {
+      control: (provided) => ({
+        ...provided,
+        border: 'none',
+        boxShadow: 'none',
+        borderRadius: 0,
+        width:"120px"
+      }),
+      option: (provided, state) => ({
+        ...provided,
+        backgroundColor: state.isSelected ? 'transparent' : provided.backgroundColor,
+        color: state.isSelected ? 'inherit' : provided.color,
+      }),
+      singleValue: (provided, state) => ({
+        ...provided,
+        color: state.isSelected ? 'inherit' : provided.color,
+      }),
+    };
 
   return (
     <div className="">
