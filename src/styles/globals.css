@@ -32,7 +32,9 @@ li.nav-item:hover ul#nav_hover_item {
   visibility: visible;
   opacity: 1;
 }
-
+.css-13cymwt-control{
+width: 150px !important;
+}
 #login_btn {
   background-color: #80798D;
   color: #F8DEFC;
@@ -42,7 +44,7 @@ li.nav-item:hover ul#nav_hover_item {
 }
 
 .banner {
-  background-image: url('https://static.wixstatic.com/media/39f107_f8dc82da7a4c44bb98e95057c4e59d7e~mv2_d_1920_1280_s_2.jpg');
+  /* background-image: url('https://static.wixstatic.com/media/39f107_f8dc82da7a4c44bb98e95057c4e59d7e~mv2_d_1920_1280_s_2.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 70px;
@@ -55,6 +57,7 @@ li.nav-item:hover ul#nav_hover_item {
   padding: 25px 50px;
   border-radius: 10px;
   text-align: center;
+  border: 1px solid black;
 }
 
 .banner .care_form h6 {

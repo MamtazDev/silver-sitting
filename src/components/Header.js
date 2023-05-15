@@ -1,8 +1,36 @@
-import React from "react";
-import Image from "next/image";
-// import { BsFillArrowDownSquareFill } from "react-icons/bs";
+import React, { useState } from "react";
+import Select from "react-select";
 
 const Header = () => {
+  const [selectedCountry, setSelectedCountry] = useState(null);
+  const countries = [
+    {
+      flag: "https://static.parastorage.com/services/linguist-flags/1.663.0/assets/flags/corner/GBR.png",
+      name: "EN",
+    },
+    {
+      flag: "https://static.parastorage.com/services/linguist-flags/1.663.0/assets/flags/corner/DEU.png",
+      name: "DE",
+    },
+  ];
+
+  const handleCountryChange = (selectedOption) => {
+    setSelectedCountry(selectedOption);
+  };
+  const countryOptions = countries.map((country) => ({
+    value: country.code,
+    label: (
+      <div style={{ display: "flex", alignItems: "center" }}>
+        <img
+          src={country.flag}
+          alt={country.name}
+          style={{ marginRight: "10px", width: "20px" }}
+        />
+        {country.name}
+      </div>
+    ),
+  }));
+
   return (
     <div className="">
       <nav class="navbar navbar-expand-lg ">
@@ -89,27 +117,11 @@ const Header = () => {
               </li>
             </ul>
             <form class="d-flex align-items-center gap-3" role="search">
-              <select
-                style={{ width: "100px" }}
-                class="form-select"
-                aria-label="Default select example"
-              >
-                <option selected>
-                  <img
-                    src="https://static.parastorage.com/services/linguist-flags/1.663.0/assets/flags/corner/DEU.png"
-                    alt=""
-                  />
-                  EN
-                </option>
-                <option value="1">
-                  {" "}
-                  <img
-                    src="https://static.parastorage.com/services/linguist-flags/1.663.0/assets/flags/corner/DEU.png"
-                    alt=""
-                  />
-                  DE
-                </option>
-              </select>
+              <Select
+                value={selectedCountry}
+                onChange={handleCountryChange}
+                options={countryOptions}
+              />
 
               <button id="login_btn" type="">
                 Login
