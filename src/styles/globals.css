@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
 
 body {
-  font-family: 'Cormorant Garamond', serif;
+  /* font-family: 'Cormorant Garamond', serif!important; */
+}
+
+.cursor_pointer {
+  cursor: pointer !important;
 }
 
 .sec_gap {
@@ -90,7 +94,7 @@ li.nav-item:hover ul#nav_hover_item {
 }
 
 .banner .care_form input {
-  border: 2px solid #525252;
+  border: 2px solid #919191;
 }
 
 .banner a {
@@ -120,8 +124,9 @@ li.nav-item:hover ul#nav_hover_item {
 }
 
 .about img {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%) !important;
+  filter: grayscale(100%) !important;
+  object-fit: contain;
 
 }
 
@@ -148,6 +153,7 @@ li.nav-item:hover ul#nav_hover_item {
 
 .register .option {
   position: relative;
+  color: #322C32;
 }
 
 .register .option::after {

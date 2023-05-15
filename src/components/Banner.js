@@ -12,10 +12,13 @@ const Banner = () => {
     setBackgroundImage(
       "url('https://static.wixstatic.com/media/ac65b3_a06cff6646d54ec59f3c6e7c9b529236~mv2.jpg/v1/fill/w_1236,h_455,al_c,q_85,enc_auto/ac65b3_a06cff6646d54ec59f3c6e7c9b529236~mv2.jpg')"
     );
-    setTab("caregiver")
+    setTab("caregiver");
   };
   return (
-    <div style={{ backgroundImage: backgroundImage }} className="banner  sec_gap">
+    <div
+      style={{ backgroundImage: backgroundImage }}
+      className="banner  sec_gap"
+    >
       <div className="container">
         <div className="row">
           <div className="col-12 col-lg-6">
@@ -26,13 +29,21 @@ const Banner = () => {
               />
               <p className="mb-4">Seniors care for children</p>
               <div className="d-flex justify-content-evenly">
-                <div className={`${tab=== "children" && "active"} `} onClick={() => setTab("children")}>
+                <div
+                  className={`${tab === "children" && "active"} cursor_pointer`}
+                  onClick={() => setTab("children")}
+                >
                   <img width={80} src={children.src} alt="" />
                   <p>
                     Care <br /> Children
                   </p>
                 </div>
-                <div className={`${tab=== "caregiver" && "active"} `} onClick={handleButtonClick}>
+                <div
+                  className={`${
+                    tab === "caregiver" && "active"
+                  } cursor_pointer`}
+                  onClick={handleButtonClick}
+                >
                   <img width={80} src={caregiver.src} alt="" />
                   <p>
                     Find <br /> Caregiver
