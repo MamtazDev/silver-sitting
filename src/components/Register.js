@@ -8,13 +8,13 @@ const Register = () => {
         <div className="d-flex flex-wrap gap-5 justify-content-between">
           <div>
             <div className="cursor_pointer option d-flex gap-3 align-items-center">
-              <h3> Register as a child career</h3>
+              <h3 className="mb-0"> Register as a child career</h3>
               <BsArrowRight className="fs-1" />
             </div>
           </div>
           <div>
             <div className="cursor_pointer option d-flex gap-3 align-items-center">
-              <h3> Register as a Parent</h3>
+              <h3 className="mb-0"> Register as a Parent</h3>
               <BsArrowRight className="fs-1" />
             </div>
           </div>
