@@ -2,7 +2,7 @@ import React from "react";
 
 const HowWorks = () => {
   return (
-    <div className="funktioniert sec_gap">
+    <div className="how_works sec_gap">
       <div className="container">
         <h1 className="text-center mb-5">How it works</h1>
         <div className="row g-5">
