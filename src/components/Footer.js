@@ -6,14 +6,14 @@ const Footer = () => {
     <div className="footer py-5">
       <div className="container">
         <div className="mb-3">
-          <Link className="me-3" href="https://www.facebook.com/SilverSitting">
+          <Link target="_blank" className="me-3" href="https://www.facebook.com/SilverSitting">
             <img
               src="https://static.wixstatic.com/media/e316f544f9094143b9eac01f1f19e697.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e316f544f9094143b9eac01f1f19e697.png"
               alt=""
             />
           </Link>
 
-          <Link href="https://www.instagram.com/silversittingcom/">
+          <Link target="_blank" href="https://www.instagram.com/silversittingcom/">
             <img
               src="https://static.wixstatic.com/media/8d6893330740455c96d218258a458aa4.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/8d6893330740455c96d218258a458aa4.png"
               alt=""
