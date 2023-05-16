@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
- 
+
 
 .cursor_pointer {
   cursor: pointer !important;
@@ -40,8 +40,9 @@ ul#nav_hover_item {
   padding: 10px;
   border-radius: 10px;
 }
-#nav_hover_item a:hover{
-opacity: 0.5;
+
+#nav_hover_item a:hover {
+  opacity: 0.5;
 }
 
 li.nav-item:hover ul#nav_hover_item {
@@ -51,6 +52,10 @@ li.nav-item:hover ul#nav_hover_item {
 
 .css-13cymwt-control {
   width: 150px !important;
+}
+
+.css-1868kni-control:hover {
+  background-color: whitesmoke !important;
 }
 
 #login_btn {
@@ -63,9 +68,10 @@ li.nav-item:hover ul#nav_hover_item {
   font-size: 22px;
   transition: 0.3s ease-in-out;
 }
+
 #login_btn:hover {
   background-color: #a59eb6;
-  
+
 }
 
 .banner {
@@ -78,9 +84,11 @@ li.nav-item:hover ul#nav_hover_item {
   background-position: center;
 
 }
-.banner p{
+
+.banner p {
   font-size: 20px;
 }
+
 .banner .care_form {
   background-color: white;
   padding: 25px 50px;
