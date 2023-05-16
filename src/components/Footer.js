@@ -144,28 +144,36 @@ const Footer = () => {
             <br />
             <Link href="https://www.silversitting.com/suche?Suchort=Hamburg">
               childcare Hamburg
-            </Link>
+            </Link>{" "}
+            <br />
             <Link href="https://www.silversitting.com/suche?Suchort=Hannover">
               childcare Hannover
-            </Link>
+            </Link>{" "}
+            <br />
             <Link href="https://www.silversitting.com/suche?Suchort=Karlsruhe">
               childcare Karlsruhe
-            </Link>
+            </Link>{" "}
+            <br />
             <Link href="https://www.silversitting.com/suche?Suchort=Koeln">
               childcare Köln
-            </Link>
+            </Link>{" "}
+            <br />
             <Link href="https://www.silversitting.com/suche?Suchort=Leipzig">
               childcare Leipzig
-            </Link>
+            </Link>{" "}
+            <br />
             <Link href="https://www.silversitting.com/suche?Suchort=Muenchen">
               childcare München
-            </Link>
+            </Link>{" "}
+            <br />
             <Link href="https://www.silversitting.com/suche?Suchort=Nuernberg">
               childcare Nürnberg
-            </Link>
+            </Link>{" "}
+            <br />
             <Link href="https://www.silversitting.com/suche?Suchort=Stuttgart">
               childcare Stuttgart
-            </Link>
+            </Link>{" "}
+            <br />
             <Link href="https://www.silversitting.com/suche">other cities</Link>
           </div>
 
