@@ -22,9 +22,13 @@ const Footer = () => {
         </div>
         <div className="row g-4 mb-5">
           <div className="col-12 col-md-6 col-lg-3">
-            <Link href="https://en.silversitting.com/suche">General terms&conditions</Link>
+            <Link href="https://en.silversitting.com/suche">
+              General terms&conditions
+            </Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">data protection</Link>
+            <Link href="https://en.silversitting.com/suche">
+              data protection
+            </Link>
             <br />
             <Link href="https://en.silversitting.com/suche">Imprint</Link>
             <br />
@@ -33,25 +37,37 @@ const Footer = () => {
             <Link href="https://en.silversitting.com/suche">team</Link>
           </div>
           <div className="col-12 col-md-6 col-lg-3">
-            <Link href="https://en.silversitting.com/suche">Find a child carer</Link>
+            <Link href="https://en.silversitting.com/suche">
+              Find a child carer
+            </Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">Become a child carer</Link>
+            <Link href="https://en.silversitting.com/suche">
+              Become a child carer
+            </Link>
           </div>
           <div className="col-12 col-md-6 col-lg-3">
-            <Link href="https://en.silversitting.com/suche">Frequently asked questions by child carers</Link>
+            <Link href="https://en.silversitting.com/suche">
+              Frequently asked questions by child carers
+            </Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">Frequently asked questions by parents</Link>
+            <Link href="https://en.silversitting.com/suche">
+              Frequently asked questions by parents
+            </Link>
             <br />
             <Link href="https://en.silversitting.com/suche">feedback</Link>
             <br />
             <Link href="https://en.silversitting.com/suche">How it works</Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">Login / Registration</Link>
+            <Link href="https://en.silversitting.com/suche">
+              Login / Registration
+            </Link>
           </div>
           <div className="col-12 col-md-6 col-lg-3">
             <Link href="https://en.silversitting.com/suche">to the blog</Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">interesting sites for seniors</Link>
+            <Link href="https://en.silversitting.com/suche">
+              interesting sites for seniors
+            </Link>
             <br />
           </div>
         </div>
@@ -72,39 +88,76 @@ const Footer = () => {
           <div className="col-12 col-md-6 col-lg-3">
             <Link href="https://en.silversitting.com/suche">baby-sitter</Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">Babysitter Berlin</Link>
+            <Link href="https://en.silversitting.com/suche">
+              Babysitter Berlin
+            </Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">Babysitter Bonn</Link>
+            <Link href="https://en.silversitting.com/suche">
+              Babysitter Bonn
+            </Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">Babysitter Dusseldorf</Link>
+            <Link href="https://en.silversitting.com/suche">
+              Babysitter Dusseldorf
+            </Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">Babysitter Frankfurt</Link>
+            <Link href="https://en.silversitting.com/suche">
+              Babysitter Frankfurt
+            </Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">Babysitter Hamburg</Link>
+            <Link href="https://en.silversitting.com/suche">
+              Babysitter Hamburg
+            </Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">Babysitter Hanover</Link>
+            <Link href="https://en.silversitting.com/suche">
+              Babysitter Hanover
+            </Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">Babysitter Karlsruhe</Link>
+            <Link href="https://en.silversitting.com/suche">
+              Babysitter Karlsruhe
+            </Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">Babysitter Cologne</Link>
+            <Link href="https://en.silversitting.com/suche">
+              Babysitter Cologne
+            </Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">Babysitter Leipzig</Link>
+            <Link href="https://en.silversitting.com/suche">
+              Babysitter Leipzig
+            </Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">Babysitter Munich</Link>
+            <Link href="https://en.silversitting.com/suche">
+              Babysitter Munich
+            </Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">Babysitter Nuremberg</Link>
+            <Link href="https://en.silversitting.com/suche">
+              Babysitter Nuremberg
+            </Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">Babysitter Stuttgart </Link>
+            <Link href="https://en.silversitting.com/suche">
+              Babysitter Stuttgart{" "}
+            </Link>
             <br />
             <Link href="https://en.silversitting.com/suche">more cities</Link>
           </div>
 
           <div className="col-12 col-md-6 col-lg-3">
-            <Link href="https://en.silversitting.com/suche">childcare</Link>
-            <Link href="https://en.silversitting.com/suche">childcare Berlin</Link>
-            <Link href="https://en.silversitting.com/suche">childcare Bonn</Link>
-            <Link href="https://en.silversitting.com/suche">childcare Düsseldorf</Link>
-            <Link href="https://en.silversitting.com/suche">childcare Frankfurt</Link>
+            <Link href="https://en.silversitting.com/suche">childcare</Link>{" "}
+            <br />
+            <Link href="https://en.silversitting.com/suche">
+              childcare Berlin
+            </Link>{" "}
+            <br />
+            <Link href="https://en.silversitting.com/suche">
+              childcare Bonn
+            </Link>
+            <br />
+            <Link href="https://en.silversitting.com/suche">
+              childcare Düsseldorf
+            </Link>
+            <br />
+            <Link href="https://en.silversitting.com/suche">
+              childcare Frankfurt
+            </Link>
+            <br />
             <Link href="https://en.silversitting.com/suche"></Link>
             {[
               "childcare Hamburg",
@@ -126,37 +179,64 @@ const Footer = () => {
               "other cities",
             ].map((item, index) => (
               <div key={index}>
-                <Link href="https://en.silversitting.com/suche">{item}</Link> <br />
+                <Link href="https://en.silversitting.com/suche">{item}</Link>{" "}
+                <br />
               </div>
             ))}
           </div>
 
           <div className="col-12 col-md-6 col-lg-3">
-            <Link href="https://en.silversitting.com/suche">lending granny</Link>
+            <Link href="https://en.silversitting.com/suche">
+              lending granny
+            </Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">lending granny Berlin</Link>
+            <Link href="https://en.silversitting.com/suche">
+              lending granny Berlin
+            </Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">lending granny Bonn</Link>
+            <Link href="https://en.silversitting.com/suche">
+              lending granny Bonn
+            </Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">lending granny Düsseldorf</Link>
+            <Link href="https://en.silversitting.com/suche">
+              lending granny Düsseldorf
+            </Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">lending granny Frankfurt</Link>
+            <Link href="https://en.silversitting.com/suche">
+              lending granny Frankfurt
+            </Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">lending granny Hamburg</Link>
+            <Link href="https://en.silversitting.com/suche">
+              lending granny Hamburg
+            </Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">lending granny Hannover</Link>
+            <Link href="https://en.silversitting.com/suche">
+              lending granny Hannover
+            </Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">lending granny Karlsruhe</Link>
+            <Link href="https://en.silversitting.com/suche">
+              lending granny Karlsruhe
+            </Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">lending granny Köln</Link>
+            <Link href="https://en.silversitting.com/suche">
+              lending granny Köln
+            </Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">lending granny Leipzig</Link>
+            <Link href="https://en.silversitting.com/suche">
+              lending granny Leipzig
+            </Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">lending granny München</Link>
+            <Link href="https://en.silversitting.com/suche">
+              lending granny München
+            </Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">lending granny Nürnberg</Link>
+            <Link href="https://en.silversitting.com/suche">
+              lending granny Nürnberg
+            </Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">lending granny Stuttgart</Link>
+            <Link href="https://en.silversitting.com/suche">
+              lending granny Stuttgart
+            </Link>
           </div>
 
           <div className="col-12 col-md-6 col-lg-3">
@@ -166,15 +246,21 @@ const Footer = () => {
             <br />
             <Link href="https://en.silversitting.com/suche">Nanny Bonn</Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">Nanny Dusseldorf</Link>
+            <Link href="https://en.silversitting.com/suche">
+              Nanny Dusseldorf
+            </Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">Nanny Frankfurt</Link>
+            <Link href="https://en.silversitting.com/suche">
+              Nanny Frankfurt
+            </Link>
             <br />
             <Link href="https://en.silversitting.com/suche">Nanny Hamburg</Link>
             <br />
             <Link href="https://en.silversitting.com/suche">Nanny Hanover</Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">Nanny Karlsruhe</Link>
+            <Link href="https://en.silversitting.com/suche">
+              Nanny Karlsruhe
+            </Link>
             <br />
             <Link href="https://en.silversitting.com/suche">Nanny Cologne</Link>
             <br />
@@ -182,9 +268,13 @@ const Footer = () => {
             <br />
             <Link href="https://en.silversitting.com/suche">Nanny Munich</Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">Nanny Stuttgart</Link>
+            <Link href="https://en.silversitting.com/suche">
+              Nanny Stuttgart
+            </Link>
             <br />
-            <Link href="https://en.silversitting.com/suche">Nanny Nuremberg</Link>
+            <Link href="https://en.silversitting.com/suche">
+              Nanny Nuremberg
+            </Link>
           </div>
         </div>
       </div>

@@ -14,6 +14,12 @@ const Banner = () => {
     );
     setTab("caregiver");
   };
+  const handleButtonClicknext = () => {
+    setBackgroundImage(
+      "url('https://static.wixstatic.com/media/ac65b3_a06cff6646d54ec59f3c6e7c9b529236~mv2.jpg/v1/fill/w_1236,h_455,al_c,q_85,enc_auto/ac65b3_a06cff6646d54ec59f3c6e7c9b529236~mv2.jpg')"
+    );
+    setTab("children");
+  };
   return (
     <div
       style={{ backgroundImage: backgroundImage }}
@@ -31,7 +37,7 @@ const Banner = () => {
               <div className="d-flex justify-content-evenly fw-bold">
                 <div
                   className={`${tab === "children" && "active"} cursor_pointer`}
-                  onClick={() => setTab("children")}
+                  onClick={handleButtonClicknext}
                 >
                   <img width={50} src={children.src} alt="" />
                   <p>
@@ -60,14 +66,19 @@ const Banner = () => {
                     Register as a child career
                   </button>{" "}
                   <br />
-                  <Link className="fs-5" href="https://en.silversitting.com/leihoma-werden">
+                  <Link
+                    className="fs-5"
+                    href="https://en.silversitting.com/leihoma-werden"
+                  >
                     Learn more about childcare
                   </Link>
                 </div>
               )}
               {tab === "caregiver" && (
                 <div>
-                  <h6 className="mb-4 fw-bold">Find childcare for your children</h6>
+                  <h6 className="mb-4 fw-bold">
+                    Find childcare for your children
+                  </h6>
                   <input
                     className="mb-4 w-75  shadow-sm p-3"
                     type="text"
